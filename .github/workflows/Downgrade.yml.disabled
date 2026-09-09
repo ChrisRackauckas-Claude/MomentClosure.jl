@@ -18,7 +18,7 @@ concurrency:
 jobs:
   downgrade:
     name: "Downgrade"
-    uses: "SciML/.github/.github/workflows/downgrade.yml@v1"
+    uses: "SciML/.github/.github/workflows/downgrade.yml@master"
     with:
       julia-version: "lts"
     secrets: "inherit"
