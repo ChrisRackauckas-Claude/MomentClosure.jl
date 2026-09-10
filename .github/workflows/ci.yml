@@ -17,5 +17,5 @@ concurrency:
 
 jobs:
   tests:
-    uses: "SciML/.github/.github/workflows/grouped-tests.yml@master"
+    uses: "ChrisRackauckas-Claude/.github/.github/workflows/grouped-tests.yml@i686-gitconfig-consumable"
     secrets: "inherit"
