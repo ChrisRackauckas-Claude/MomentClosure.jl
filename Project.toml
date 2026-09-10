@@ -21,6 +21,9 @@ Symbolics = "0c5d862f-8b57-4792-8d23-62f2024744c7"
 StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
 TermInterface = "8ea1fca8-c5ef-4a55-8b96-4e9afe9c9a3c"
 
+[sources]
+SymbolicUtils = {url = "https://github.com/ChrisRackauckas-Claude/SymbolicUtils.jl.git", rev = "fix-int64-poly-gcd"}
+
 [compat]
 Catalyst = "16.2"
 Combinatorics = "1.0.2"
@@ -39,7 +42,7 @@ SafeTestsets = "0.1"
 SciMLBase = "3.21"
 SciMLTesting = "2.4"
 SymbolicIndexingInterface = "0.3"
-SymbolicUtils = "4.35"
+SymbolicUtils = "4.46.4"
 Symbolics = "7.39.2"
 StatsBase = "0.34"
 Test = "1"
