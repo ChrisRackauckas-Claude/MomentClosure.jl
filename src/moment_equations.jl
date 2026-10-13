@@ -10,7 +10,7 @@ helper parameters (used internally).
 $(FIELDS)
 """
 struct RawMomentEquations <: MomentEquations
-    """[`ModelingToolkit.System`](https://docs.sciml.ai/ModelingToolkit/stable/systems/system/#ModelingToolkit.System)
+    """[`ModelingToolkit.System`](https://docs.sciml.ai/ModelingToolkit/stable/API/System/#ModelingToolkitBase.System)
     consisting of the time-evolution equations of raw moments."""
     odes::System
     """Dictionary mapping species of the associated `ReactionSystem` to their index in the moment equations."""
@@ -44,7 +44,7 @@ helper parameters (used internally).
 $(FIELDS)
 """
 struct CentralMomentEquations <: MomentEquations
-    """[`ModelingToolkit.System`](https://docs.sciml.ai/ModelingToolkit/stable/systems/system/#ModelingToolkit.System)
+    """[`ModelingToolkit.System`](https://docs.sciml.ai/ModelingToolkit/stable/API/System/#ModelingToolkitBase.System)
     consisting of the time-evolution equations of central moments."""
     odes::System
     """Dictionary mapping species of the associated `ReactionSystem` to their index in the moment equations."""
@@ -79,7 +79,7 @@ Closed moment equations and the corresponding closure functions.
 $(FIELDS)
 """
 struct ClosedMomentEquations <: MomentEquations
-    """[`ModelingToolkit.System`](https://docs.sciml.ai/ModelingToolkit/stable/systems/system/#ModelingToolkit.System)
+    """[`ModelingToolkit.System`](https://docs.sciml.ai/ModelingToolkit/stable/API/System/#ModelingToolkitBase.System)
     consisting of the time-evolution equations of *closed* moments."""
     odes::System
     """Dictionary of moment closure functions for each higher order moment."""

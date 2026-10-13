@@ -306,7 +306,7 @@ end
 Given `MomentEquations`, return an array of formatted strings representing
 each ODE that can be visualised using [Latexify](https://github.com/korsbo/Latexify.jl).
 Although Latexify can be applied directly on [`ModelingToolkit.System`]
-(https://docs.sciml.ai/ModelingToolkit/stable/systems/system/) (accessed by `eqs.odes`),
+(https://docs.sciml.ai/ModelingToolkit/stable/API/System/) (accessed by `eqs.odes`),
 `format_moment_eqs` makes it visually more appealing: simplifies the symbolic
 expressions further (expanding all terms), makes the time-dependence of moment
 variables implicit (removes all `(t)`) and removes all trailing zeros (`2.0` → `2`).
